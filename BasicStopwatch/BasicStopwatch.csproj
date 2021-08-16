@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Reset.png" />
+    <None Remove="Start.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Reset.png" />
+    <Resource Include="Start.png" />
+  </ItemGroup>
+
+</Project>
